@@ -1,0 +1,46 @@
+INFO:root:----- Starting process at 2020-11-24 15:46:45.774387
+INFO:root:Epochs 5. Model LSTM with mutable hyperparams: hidden size=128, activation=tanh, recurrent_activation=tanh
+Layers: LSTM / Dropout(0.25) 4th, Dense=1
+INFO:root:dataset extracted and split, train data and test data
+INFO:root:Train set is split between X and y and reshape
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+INFO:root:Loss: [0.08684035390615463, 0.020409727469086647, 0.011284345760941505, 0.00747905345633626, 0.006048058625310659]
+INFO:root:Save weight through Checkpoint: 43.55778747700242 sec
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:root:Evaluate model: 2.2035705851822915
+INFO:root:----- End of process
+INFO:root:----- Starting process at 2020-11-24 15:51:26.295248
+INFO:root:Plot number: 1. Epochs 5. Model LSTM with mutable hyperparams: hidden size=128, activation=tanh, recurrent_activation=tanh
+Layers: LSTM / Dropout(0.25) 4th, Dense=1
+INFO:root:dataset extracted and split, train data and test data
+INFO:root:Train set is split between X and y and reshape
+INFO:root:Loss: [0.06040552258491516]
+INFO:root:End of Epoch 1
+INFO:root:Loss: [0.014864577911794186]
+INFO:root:End of Epoch 2
+INFO:root:Loss: [0.008494561538100243]
+INFO:root:End of Epoch 3
+INFO:root:Loss: [0.006834032014012337]
+INFO:root:End of Epoch 4
+INFO:root:Loss: [0.005385168362408876]
+INFO:root:End of Epoch 5
+INFO:root:Save weight with Pickle: 46.001990264001506 sec
+INFO:root:Evaluate model: 2.286394342403993
+INFO:root:----- End of process
+INFO:root:----- Starting process at 2020-11-24 16:07:28.470594
+INFO:root:dataset extracted and split, train data and test data
+INFO:root:Train set is split between X and y and reshape
+INFO:root:Evaluate model without training: 19.939164150923965 (mean squared error)
+INFO:root:Time to loading Checkpoint 0.7156350219993328 sec.
+INFO:root:Evaluate model with set weights: 2.2035705851822915 (mean squared error)
+INFO:root:----- End of process
+INFO:root:----- Starting process at 2020-11-24 16:14:03.814828
+INFO:root:dataset extracted and split, train data and test data
+INFO:root:Train set is split between X and y and reshape
+INFO:root:Evaluate model without training: 19.94677430696086 (mean squared error)
+INFO:root:Time to loading weights in Pickle 0.7176489230005245 sec.
+INFO:root:Evaluate model with set weights: 2.286394342403993 (mean squared error)
+INFO:root:----- End of process

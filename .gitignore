@@ -1,0 +1,5 @@
+/.idea/
+/__pycache__/
+/training_ckpt/
+/training_pkl/
+Pipfile
